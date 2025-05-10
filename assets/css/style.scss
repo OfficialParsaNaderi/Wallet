@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Script";
+}
+
+.Main-Section {
+    .Wallet {
+
+        .Mission {
+            display: flex;
+
+            .Deposits {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                background-color: aqua;
+                width: fit-content;
+                padding: 25px;
+                margin: 50px 100px 50px 100px;
+                border-radius: 25px;
+
+                .Input {
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+
+                    input {
+                        border: none;
+                        padding: 5px;
+                        border-radius: 5px;
+                    }
+                }
+
+                .Button {
+                    button {
+                        border: none;
+                        background-color: black;
+                        color: aliceblue;
+                        padding: 5px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+
+            .Harvests {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                background-color: aqua;
+                width: fit-content;
+                padding: 25px;
+                margin: 50px 100px 50px 100px;
+                border-radius: 25px;
+
+                .Input {
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+
+                    input {
+                        border: none;
+                        padding: 5px;
+                        border-radius: 5px;
+                    }
+                }
+
+                .Button {
+                    button {
+                        border: none;
+                        background-color: black;
+                        color: aliceblue;
+                        padding: 5px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
+        .Result {
+            display: grid;
+            gap: 15px;
+            justify-content: center;
+
+            .Text {
+                display: flex;
+                gap: 20px;
+
+                h1 {
+                    color: red;
+                }
+            }
+
+            .Button {
+                button {
+                    border: none;
+                    background-color: black;
+                    color: aliceblue;
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-left: 40px;
+                }
+            }
+        }
+
+    }
+}

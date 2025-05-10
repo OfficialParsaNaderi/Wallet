@@ -1,0 +1,89 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Script";
+}
+
+.Main-Section .Wallet .Mission {
+  display: flex;
+}
+.Main-Section .Wallet .Mission .Deposits {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: aqua;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 25px;
+  margin: 50px 100px 50px 100px;
+  border-radius: 25px;
+}
+.Main-Section .Wallet .Mission .Deposits .Input {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.Main-Section .Wallet .Mission .Deposits .Input input {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.Main-Section .Wallet .Mission .Deposits .Button button {
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+.Main-Section .Wallet .Mission .Harvests {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: aqua;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 25px;
+  margin: 50px 100px 50px 100px;
+  border-radius: 25px;
+}
+.Main-Section .Wallet .Mission .Harvests .Input {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.Main-Section .Wallet .Mission .Harvests .Input input {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.Main-Section .Wallet .Mission .Harvests .Button button {
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+.Main-Section .Wallet .Result {
+  display: grid;
+  gap: 15px;
+  justify-content: center;
+}
+.Main-Section .Wallet .Result .Text {
+  display: flex;
+  gap: 20px;
+}
+.Main-Section .Wallet .Result .Text h1 {
+  color: red;
+}
+.Main-Section .Wallet .Result .Button button {
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 40px;
+}/*# sourceMappingURL=style.css.map */
